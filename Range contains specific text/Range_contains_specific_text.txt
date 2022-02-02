@@ -1,0 +1,11 @@
+Range contains specific text
+=COUNTIF(A6:B8,"*"&D6&"*")>0
+=COUNTIF(A7:B9,"*"&D7&"*")>0
+=COUNTIF($A$7:$B$9,"*"&"lla"&"*")>0
+=COUNTIF($A$7:$B$9,"*" &"nica"& "*")>0
+
+Text to search
+======================================
+thissagoodtest	this is a nice test
+wallayournameyes	wallayes
+findablablaintext	findastringintext
